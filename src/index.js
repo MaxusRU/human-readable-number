@@ -3,7 +3,7 @@ module.exports = function toReadable (number) {
 //	number = 11;
 	o = Math.abs(number).toString().split('');//.reverse().join('');
 	newArray = [];
-	numLength = number.toString().length - 1;
+	numLength = Math.abs(number).toString().length - 1;
 //	for (n = 0;  n < number.toString().length; n++){
 //	for (n = numLength; n >= 0; n--){
 //	console.log('numLength = ' + numLength);
